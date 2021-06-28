@@ -11,6 +11,7 @@ import Projects from './pages/Projects';
 
 
 function App() {
+  const URL = "https://mocportfolio.herokuapp.com/";
   return (
     <div className="App">
       <Header />
