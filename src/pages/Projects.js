@@ -23,7 +23,7 @@ function Projects(props) {
             </div>
         ))
     }
-    return <h1>Projects</h1>
+    return projects ? loaded() : <h1>Loading...</h1>
 }
 
 export default Projects;
